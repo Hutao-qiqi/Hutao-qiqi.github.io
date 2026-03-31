@@ -3,9 +3,9 @@ title = "About"
 
 [profile]
 research_interests = [
-  "Single-cell omics",
+  "Single-cell transcriptomics",
   "Spatial transcriptomics",
-  "Computational immunology"
+  "Cell-state annotation"
 ]
 
 [[sections]]

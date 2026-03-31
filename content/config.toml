@@ -1,14 +1,14 @@
 [site]
-title = "Your Name"
-description = "Personal academic website for research, publications, and curriculum vitae."
+title = "Shuye Liu"
+description = "Academic homepage for Shuye Liu at Wuhan University."
 favicon = "/favicon.svg"
 last_updated = "March 31, 2026"
 
 [author]
-name = "Your Name"
-title = "Researcher / PhD Candidate"
-institution = "Your Institution"
-avatar = "/avatar-placeholder.svg"
+name = "Shuye Liu"
+title = "Student Researcher"
+institution = "Wuhan University"
+avatar = "/liushuye-avatar.jpg"
 
 [social]
 # Add email, location, Google Scholar, ORCID, GitHub, or LinkedIn here when ready.

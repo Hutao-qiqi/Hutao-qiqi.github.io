@@ -1,6 +1,7 @@
 'use client';
 
 import { motion } from 'framer-motion';
+import Image from 'next/image';
 import ReactMarkdown from 'react-markdown';
 import { CardPageConfig } from '@/types/page';
 
@@ -56,6 +57,19 @@ export default function CardPage({ config, embedded = false }: { config: CardPag
                         transition={{ duration: 0.4, delay: 0.1 * index }}
                         className={`bg-white dark:bg-neutral-900 ${embedded ? "p-4" : "p-6"} rounded-xl shadow-sm border border-neutral-200 dark:border-neutral-800 hover:shadow-lg transition-all duration-200 hover:scale-[1.01]`}
                     >
+                        {item.image && (
+                            <div className="mb-4 overflow-hidden rounded-xl border border-neutral-200/70 bg-neutral-50 dark:border-neutral-800 dark:bg-neutral-950">
+                                <div className="relative aspect-[16/10] w-full">
+                                    <Image
+                                        src={item.image}
+                                        alt={item.title}
+                                        fill
+                                        className="object-cover"
+                                        sizes="(max-width: 768px) 100vw, 900px"
+                                    />
+                                </div>
+                            </div>
+                        )}
                         <div className="flex justify-between items-start mb-2">
                             <h3 className={`${embedded ? "text-lg" : "text-xl"} font-semibold text-primary`}>{item.title}</h3>
                             {item.date && (

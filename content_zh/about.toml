@@ -3,9 +3,9 @@ title = "关于我"
 
 [profile]
 research_interests = [
-  "单细胞组学",
-  "空间转录组学",
-  "计算免疫学"
+  "单细胞转录组",
+  "空间转录组",
+  "细胞状态注释"
 ]
 
 [[sections]]

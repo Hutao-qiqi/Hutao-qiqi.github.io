@@ -1,17 +1,27 @@
 type = "card"
 title = "项目"
-description = "这个页面适合展示在研课题、软件工具、数据资源、合作项目或阶段性成果。"
+description = "这里整理了近期做过的一些单细胞和空间转录组分析案例。"
 
 [[items]]
-title = "项目占位卡"
-subtitle = "请替换为你的项目名称"
-date = "进行中"
-content = "可在这里概括科学问题、数据来源、分析方法、合作对象，以及代码或论文链接。"
-tags = ["项目", "占位"]
+title = "免疫状态分群整理"
+subtitle = "单细胞分群与注释展示"
+date = "2026"
+content = "这个案例主要用于展示分群后的结构检查、注释整理和结果排版方式。网站公开版本保留了聚类几何形态，但不直接暴露项目中的具体生物学命名。"
+tags = ["单细胞", "分群", "UMAP"]
+image = "/projects/plasma-cluster-umap.png"
 
 [[items]]
-title = "资源占位卡"
-subtitle = "数据集 / 软件 / 合作方向"
-date = "待更新"
-content = "第二张卡片可以用于展示数据资源、分析工具、综述工作或合作计划。"
-tags = ["资源", "占位"]
+title = "状态注释面板"
+subtitle = "高分辨率状态划分与打码展示"
+date = "2026"
+content = "这个图像案例对应更细粒度的状态划分与注释复核。为了避免公开真实结果中的关键标签，网站版本对细胞状态名称做了遮挡处理。"
+tags = ["注释", "打码", "结果图"]
+image = "/projects/plasma-state-annotation-masked.png"
+
+[[items]]
+title = "空间投影总览"
+subtitle = "空间转录组结果概览"
+date = "2026"
+content = "这个项目卡片展示的是单细胞状态回投到组织空间后的结果排版，包括组织图像、空间映射和整体生态对比。公开页面对部分样本标签与关键信息做了隐藏。"
+tags = ["空间转录组", "组织图像", "结果展示"]
+image = "/projects/thyroid-spatial-projection-masked.png"

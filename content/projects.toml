@@ -1,17 +1,27 @@
 type = "card"
 title = "Projects"
-description = "Use this page for active research projects, software, datasets, collaborations, or fieldwork."
+description = "Selected analysis cases from recent single-cell and spatial transcriptomics work."
 
 [[items]]
-title = "Project Placeholder"
-subtitle = "Replace with your project title"
-date = "Ongoing"
-content = "Summarize the scientific question, dataset, methods, collaborators, and links to code or manuscripts."
-tags = ["Project", "Placeholder"]
+title = "Immune-state clustering review"
+subtitle = "Single-cell clustering and annotation snapshot"
+date = "2026"
+content = "A clustering-focused case built around iterative annotation review, visual quality control, and publication-style UMAP presentation. This public version keeps the geometry of the clusters while avoiding project-specific biological naming."
+tags = ["scRNA-seq", "Clustering", "UMAP"]
+image = "/projects/plasma-cluster-umap.png"
 
 [[items]]
-title = "Resource Placeholder"
-subtitle = "Dataset / software / collaboration"
-date = "Update me"
-content = "This second card can be used for a dataset, tool, review article, or collaborative initiative."
-tags = ["Resource", "Placeholder"]
+title = "State annotation panel"
+subtitle = "High-resolution partitioning with masked labels"
+date = "2026"
+content = "A compact annotation panel used for reviewing a transition-state dataset after refined partitioning. Sensitive cell-state names are intentionally redacted on the website while the structure of the analysis remains visible."
+tags = ["Annotation", "Masked labels", "Review figure"]
+image = "/projects/plasma-state-annotation-masked.png"
+
+[[items]]
+title = "Spatial projection overview"
+subtitle = "Spatial transcriptomics result panel"
+date = "2026"
+content = "A figure-oriented summary that maps single-cell-derived states back to tissue context through spatial projection, histology integration, and ecosystem-level comparison. Public-facing labels are partially hidden for privacy."
+tags = ["Spatial transcriptomics", "Figure design", "Tissue context"]
+image = "/projects/thyroid-spatial-projection-masked.png"
