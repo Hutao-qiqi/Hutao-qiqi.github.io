@@ -1,11 +1,11 @@
 [site]
-title = "刘树叶"
-description = "刘树叶的个人学术主页。"
+title = "刘叔烨"
+description = "刘叔烨的个人学术主页。"
 favicon = "/favicon.svg"
 last_updated = "2026年3月31日"
 
 [author]
-name = "刘树叶"
+name = "刘叔烨"
 title = "武汉大学在读"
 institution = "武汉大学"
 avatar = "/liushuye-avatar.jpg"
