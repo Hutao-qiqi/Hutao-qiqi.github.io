@@ -1,19 +1,17 @@
 [site]
-title = "刘嘉乐"
-description = "某某大学博士生个人主页。"
-last_updated = "2025年11月18日"
+title = "你的名字"
+description = "用于展示研究方向、论文成果与个人履历的学术主页。"
+favicon = "/favicon.svg"
+last_updated = "2026年3月31日"
 
 [author]
-name = "刘嘉乐"
-title = "博士生"
-institution = "某某大学"
+name = "你的名字"
+title = "研究者 / 博士生"
+institution = "你的单位"
+avatar = "/avatar-placeholder.svg"
 
 [social]
-location = "城市，国家"
-location_details = [
-  "理科楼 123 室，",
-  "大学路，城市，国家"
-]
+# 准备好后可在这里填写邮箱、地址、Google Scholar、ORCID、GitHub、LinkedIn。
 
 [[navigation]]
 title = "关于我"
@@ -28,22 +26,10 @@ target = "publications"
 href = "/publications"
 
 [[navigation]]
-title = "教学"
+title = "项目"
 type = "page"
-target = "teaching"
-href = "/teaching"
-
-[[navigation]]
-title = "奖项"
-type = "page"
-target = "awards"
-href = "/awards"
-
-[[navigation]]
-title = "服务"
-type = "page"
-target = "services"
-href = "/services"
+target = "projects"
+href = "/projects"
 
 [[navigation]]
 title = "简历"

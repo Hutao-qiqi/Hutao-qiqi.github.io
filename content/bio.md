@@ -1,5 +1,5 @@
-I am a PhD student at the School of Science, University of Example, advised by [Prof. Advisor One](https://example.com) and [Dr. Advisor Two](https://example.com).
+I work at the intersection of **single-cell genomics**, **spatial transcriptomics**, and **computational immunology**, with a current focus on cell-state transitions, tissue context, and data-driven interpretation of immune differentiation.
 
-Prior to this, I obtained a BSc degree with First Class Honours in Natural Science from the University of Example.
+This website has been scaffolded from PRISM and is ready to be personalized with my full biography, real affiliations, publication list, and downloadable CV.
 
-My current research focuses on investigating the mathematical principles of natural philosophy.
+If you are visiting this draft version, the structure is already in place. The remaining step is to replace the placeholder profile with final personal details and research outputs.

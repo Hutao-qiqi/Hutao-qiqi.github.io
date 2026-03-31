@@ -36,8 +36,19 @@ const monthMapping: Record<string, number> = {
 };
 
 export function parseBibTeX(bibtexContent: string, locale?: string): Publication[] {
+  if (!bibtexContent.trim()) {
+    return [];
+  }
+
   const highlightNames = getHighlightNames(locale);
-  const entries = bibtexParse.toJSON(bibtexContent);
+  let entries: Array<{ entryType: string; citationKey: string; entryTags: Record<string, string> }> = [];
+
+  try {
+    entries = bibtexParse.toJSON(bibtexContent);
+  } catch (error) {
+    console.error('Error parsing BibTeX content:', error);
+    return [];
+  }
 
   return entries.map((entry: { entryType: string; citationKey: string; entryTags: Record<string, string> }, index: number) => {
     const tags = entry.entryTags;

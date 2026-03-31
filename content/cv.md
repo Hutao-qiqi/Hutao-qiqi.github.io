@@ -1,26 +1,32 @@
+## Profile
+
+- Replace this section with a short academic summary, research focus, and contact links.
+
 ## Education
 
-**The University of Example**, PhD in Natural Science, *2025 - Present*
-- Research focus: Mathematical Principles of Natural Philosophy
-- Supervisor: Prof. Advisor One and Dr. Advisor Two
+**Institution**, Degree, *Year - Year*
+- Advisor / supervisor:
+- Thesis or research focus:
 
-**The University of Example**, BSc in Natural Science, *2021 - 2025*
-- Graduated with First Class Honours
+## Appointments
 
-## Experience
+**Role Title**
+Institution
+*Year - Present*
+- Add key responsibilities, collaborations, or visiting positions.
 
-**Example Role**
-Company/Institution
-*2023 - 2024*
-- Description of key responsibilities and achievements.
-- Utilized skills to solve problems.
+## Research Interests
 
-## Skills
+- Single-cell omics
+- Spatial transcriptomics
+- Computational immunology
 
-- **Programming:** Python, C++, MATLAB, LaTeX
-- **Data Analysis:** Pandas, NumPy, SciPy
-- **Languages:** English (Native), French (Fluent)
+## Technical Skills
 
-## Awards & Honors
+- **Programming:** Python, R, SQL, LaTeX
+- **Analysis:** Scanpy, Seurat, CellChat, visualization workflows
+- **Infrastructure:** Linux, Git, reproducible research pipelines
 
-- **First Prize in Example Competition** - Committee of Example (*2024*)
+## Honors
+
+- Add scholarships, awards, invited talks, or recognitions here.

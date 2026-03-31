@@ -1,0 +1,17 @@
+type = "card"
+title = "Projects"
+description = "Use this page for active research projects, software, datasets, collaborations, or fieldwork."
+
+[[items]]
+title = "Project Placeholder"
+subtitle = "Replace with your project title"
+date = "Ongoing"
+content = "Summarize the scientific question, dataset, methods, collaborators, and links to code or manuscripts."
+tags = ["Project", "Placeholder"]
+
+[[items]]
+title = "Resource Placeholder"
+subtitle = "Dataset / software / collaboration"
+date = "Update me"
+content = "This second card can be used for a dataset, tool, review article, or collaborative initiative."
+tags = ["Resource", "Placeholder"]

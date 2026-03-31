@@ -31,6 +31,8 @@ export interface LocaleMessages {
     news: string;
     selectedPublications: string;
     viewAll: string;
+    newsEmpty: string;
+    publicationsEmpty: string;
   };
   publications: {
     searchPlaceholder: string;
@@ -81,6 +83,8 @@ const en: LocaleMessages = {
     news: 'News',
     selectedPublications: 'Selected Publications',
     viewAll: 'View All',
+    newsEmpty: 'Add updates in content/news.toml to show recent milestones, talks, and announcements.',
+    publicationsEmpty: 'Add entries to content/publications.bib and mark selected work with selected = {true}.',
   },
   publications: {
     searchPlaceholder: 'Search publications...',
@@ -131,6 +135,8 @@ const zh: LocaleMessages = {
     news: '动态',
     selectedPublications: '精选论文',
     viewAll: '查看全部',
+    newsEmpty: '在 content/news.toml 中补充近况、报告、获奖或论文进展后，这里会自动显示。',
+    publicationsEmpty: '在 content/publications.bib 中加入 BibTeX 条目，并用 selected = {true} 标记首页精选论文。',
   },
   publications: {
     searchPlaceholder: '搜索论文...',
