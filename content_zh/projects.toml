@@ -3,25 +3,25 @@ title = "项目"
 description = "这里按实际工作区项目整理近期做过的部分分析案例，公开版本只保留适合展示的概览图与简要说明。"
 
 [[items]]
-title = "SOX"
-subtitle = "跨队列肿瘤生态与免疫环境分析"
+title = "跨队列肿瘤生态比较"
+subtitle = "肿瘤生态位结构与免疫环境对比"
 date = "2026"
-content = "这个工作区围绕跨癌种生态位分布、免疫环境差异和总结性图表整理展开。项目页展示的是适合公开放出的热图和趋势图，不展开内部分析链路，也不直接写入更细的研究解释。"
+content = "这个项目围绕跨队列的肿瘤生态位结构、免疫环境差异以及整体组织格局比较展开。网站公开版本只保留适合展示的热图和趋势图，不展开论文层面的解释链路。"
 tags = ["项目工作区", "跨队列分析", "图表整理"]
 images = ["/projects/sox-niche-heatmap.png", "/projects/sox-tls-enrichment.png"]
 
 [[items]]
-title = "MASH_HCC_MR_Analysis"
+title = "肝病风险与因果证据分析"
 subtitle = "双样本 MR 与结果证据整理"
 date = "2026"
-content = "这个目录主要承载 MASH/NAFLD 到 HCC 风险关联的 MR 分析及相关结果整理。公开页面只保留统计结果图与整体证据面板，用来体现项目类型和结果组织方式，不展开具体结论链。"
+content = "这个项目主要承载肝病风险与肿瘤相关结局之间的因果推断分析，以及后续统计证据整理。公开页面只保留统计结果图与整体证据面板，用来体现项目类型和结果组织方式，不展开具体结论链。"
 tags = ["MR 分析", "统计结果", "证据整理"]
 images = ["/projects/mash-mr-forest.png", "/projects/mash-volcano.png"]
 
 [[items]]
-title = "SPP1"
-subtitle = "巨噬细胞相关互作与代谢通讯整理"
+title = "代谢与炎症通讯模块分析"
+subtitle = "巨噬细胞浸润相关互作模式整理"
 date = "2026"
-content = "这个工作区主要整理围绕 SPP1 相关巨噬细胞的互作评分、代谢通讯和图版输出。网站版本只展示打码后的通讯图，关键信号分子和标题信息做了遮挡，不放原始中间结果。"
+content = "这个项目主要整理代谢与炎症模块相关的互作评分、通讯模式和图版输出。公开版本保留了巨噬细胞浸润相关的整体趋势和关联结构，同时对关键分子标签与标题信息进行了打码处理。"
 tags = ["互作分析", "打码图", "项目整理"]
 images = ["/projects/spp1-metabolic-bubble-masked.png", "/projects/spp1-interaction-scatter-masked.png"]

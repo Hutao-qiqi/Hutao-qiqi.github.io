@@ -3,25 +3,25 @@ title = "Projects"
 description = "Selected project snapshots organized by workspace, with public-facing summaries and redacted figure panels when needed."
 
 [[items]]
-title = "SOX"
-subtitle = "Cross-cohort tumor ecology and immune-context analysis"
+title = "Cross-cohort tumor ecology analysis"
+subtitle = "Tumor niche structure and immune-context comparison"
 date = "2026"
-content = "This workspace focuses on a cross-cancer analysis pipeline around tumor ecology, immune context, and niche-level comparison. The public project page highlights summary heatmaps and comparative trend figures while leaving out internal interpretation details and manuscript-level argumentation."
+content = "This project focuses on cross-cohort comparison of tumor ecological structure, immune-context variation, and niche-level organization. The public version highlights summary heatmaps and comparative trend figures, while omitting manuscript-level interpretation and internal analytical details."
 tags = ["Project workspace", "Cross-cohort analysis", "Figure curation"]
 images = ["/projects/sox-niche-heatmap.png", "/projects/sox-tls-enrichment.png"]
 
 [[items]]
-title = "MASH_HCC_MR_Analysis"
-subtitle = "Two-sample MR and downstream evidence review"
+title = "Liver disease risk and causal evidence analysis"
+subtitle = "Two-sample MR with downstream evidence curation"
 date = "2026"
-content = "This folder contains a Mendelian randomization workflow linking liver disease liability to hepatocellular carcinoma risk, together with downstream differential-expression and network-style evidence summaries. The public-facing version shows only generic statistical panels and avoids exposing internal interpretation notes."
+content = "This project centers on causal inference analysis linking chronic liver disease risk to cancer-related outcomes, together with downstream statistical evidence curation. The public-facing version shows generic result panels only and avoids exposing internal interpretation notes or project-specific biological claims."
 tags = ["MR workflow", "Statistical analysis", "Result panels"]
 images = ["/projects/mash-mr-forest.png", "/projects/mash-volcano.png"]
 
 [[items]]
-title = "SPP1"
-subtitle = "Macrophage-centered interaction and metabolic communication review"
+title = "Metabolic and inflammatory communication program"
+subtitle = "Macrophage infiltration and interaction-pattern review"
 date = "2026"
-content = "This project workspace centers on interaction review, communication scoring, and figure packaging around an SPP1-related macrophage analysis. For the website, only redacted communication plots are shown, with key molecular labels masked and method-specific intermediate details omitted."
+content = "This project reviews interaction scoring, metabolic communication patterns, and figure packaging around a macrophage-rich microenvironment. The public version keeps only redacted communication plots, allowing the overall story of metabolic and inflammatory modules associated with macrophage infiltration to be shown without exposing sensitive labels."
 tags = ["Interaction analysis", "Redacted figures", "Project packaging"]
 images = ["/projects/spp1-metabolic-bubble-masked.png", "/projects/spp1-interaction-scatter-masked.png"]
