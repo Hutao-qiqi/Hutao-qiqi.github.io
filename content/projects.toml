@@ -1,27 +1,27 @@
 type = "card"
 title = "Projects"
-description = "Selected analysis cases from recent single-cell and spatial transcriptomics work."
+description = "Selected project snapshots organized by workspace, with public-facing summaries and redacted figure panels when needed."
 
 [[items]]
-title = "Immune-state clustering review"
-subtitle = "Single-cell clustering and annotation snapshot"
+title = "SOX"
+subtitle = "Cross-cohort tumor ecology and immune-context analysis"
 date = "2026"
-content = "A clustering-focused case built around iterative annotation review, visual quality control, and publication-style UMAP presentation. This public version keeps the geometry of the clusters while avoiding project-specific biological naming."
-tags = ["scRNA-seq", "Clustering", "UMAP"]
-image = "/projects/plasma-cluster-umap.png"
+content = "This workspace focuses on a cross-cancer analysis pipeline around tumor ecology, immune context, and niche-level comparison. The public project page highlights summary heatmaps and comparative trend figures while leaving out internal interpretation details and manuscript-level argumentation."
+tags = ["Project workspace", "Cross-cohort analysis", "Figure curation"]
+images = ["/projects/sox-niche-heatmap.png", "/projects/sox-tls-enrichment.png"]
 
 [[items]]
-title = "State annotation panel"
-subtitle = "High-resolution partitioning with masked labels"
+title = "MASH_HCC_MR_Analysis"
+subtitle = "Two-sample MR and downstream evidence review"
 date = "2026"
-content = "A compact annotation panel used for reviewing a transition-state dataset after refined partitioning. Sensitive cell-state names are intentionally redacted on the website while the structure of the analysis remains visible."
-tags = ["Annotation", "Masked labels", "Review figure"]
-image = "/projects/plasma-state-annotation-masked.png"
+content = "This folder contains a Mendelian randomization workflow linking liver disease liability to hepatocellular carcinoma risk, together with downstream differential-expression and network-style evidence summaries. The public-facing version shows only generic statistical panels and avoids exposing internal interpretation notes."
+tags = ["MR workflow", "Statistical analysis", "Result panels"]
+images = ["/projects/mash-mr-forest.png", "/projects/mash-volcano.png"]
 
 [[items]]
-title = "Spatial projection overview"
-subtitle = "Spatial transcriptomics result panel"
+title = "SPP1"
+subtitle = "Macrophage-centered interaction and metabolic communication review"
 date = "2026"
-content = "A figure-oriented summary that maps single-cell-derived states back to tissue context through spatial projection, histology integration, and ecosystem-level comparison. Public-facing labels are partially hidden for privacy."
-tags = ["Spatial transcriptomics", "Figure design", "Tissue context"]
-image = "/projects/thyroid-spatial-projection-masked.png"
+content = "This project workspace centers on interaction review, communication scoring, and figure packaging around an SPP1-related macrophage analysis. For the website, only redacted communication plots are shown, with key molecular labels masked and method-specific intermediate details omitted."
+tags = ["Interaction analysis", "Redacted figures", "Project packaging"]
+images = ["/projects/spp1-metabolic-bubble-masked.png", "/projects/spp1-interaction-scatter-masked.png"]

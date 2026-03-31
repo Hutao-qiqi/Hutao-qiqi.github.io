@@ -1,27 +1,27 @@
 type = "card"
 title = "项目"
-description = "这里整理了近期做过的一些单细胞和空间转录组分析案例。"
+description = "这里按实际工作区项目整理近期做过的部分分析案例，公开版本只保留适合展示的概览图与简要说明。"
 
 [[items]]
-title = "免疫状态分群整理"
-subtitle = "单细胞分群与注释展示"
+title = "SOX"
+subtitle = "跨队列肿瘤生态与免疫环境分析"
 date = "2026"
-content = "这个案例主要用于展示分群后的结构检查、注释整理和结果排版方式。网站公开版本保留了聚类几何形态，但不直接暴露项目中的具体生物学命名。"
-tags = ["单细胞", "分群", "UMAP"]
-image = "/projects/plasma-cluster-umap.png"
+content = "这个工作区围绕跨癌种生态位分布、免疫环境差异和总结性图表整理展开。项目页展示的是适合公开放出的热图和趋势图，不展开内部分析链路，也不直接写入更细的研究解释。"
+tags = ["项目工作区", "跨队列分析", "图表整理"]
+images = ["/projects/sox-niche-heatmap.png", "/projects/sox-tls-enrichment.png"]
 
 [[items]]
-title = "状态注释面板"
-subtitle = "高分辨率状态划分与打码展示"
+title = "MASH_HCC_MR_Analysis"
+subtitle = "双样本 MR 与结果证据整理"
 date = "2026"
-content = "这个图像案例对应更细粒度的状态划分与注释复核。为了避免公开真实结果中的关键标签，网站版本对细胞状态名称做了遮挡处理。"
-tags = ["注释", "打码", "结果图"]
-image = "/projects/plasma-state-annotation-masked.png"
+content = "这个目录主要承载 MASH/NAFLD 到 HCC 风险关联的 MR 分析及相关结果整理。公开页面只保留统计结果图与整体证据面板，用来体现项目类型和结果组织方式，不展开具体结论链。"
+tags = ["MR 分析", "统计结果", "证据整理"]
+images = ["/projects/mash-mr-forest.png", "/projects/mash-volcano.png"]
 
 [[items]]
-title = "空间投影总览"
-subtitle = "空间转录组结果概览"
+title = "SPP1"
+subtitle = "巨噬细胞相关互作与代谢通讯整理"
 date = "2026"
-content = "这个项目卡片展示的是单细胞状态回投到组织空间后的结果排版，包括组织图像、空间映射和整体生态对比。公开页面对部分样本标签与关键信息做了隐藏。"
-tags = ["空间转录组", "组织图像", "结果展示"]
-image = "/projects/thyroid-spatial-projection-masked.png"
+content = "这个工作区主要整理围绕 SPP1 相关巨噬细胞的互作评分、代谢通讯和图版输出。网站版本只展示打码后的通讯图，关键信号分子和标题信息做了遮挡，不放原始中间结果。"
+tags = ["互作分析", "打码图", "项目整理"]
+images = ["/projects/spp1-metabolic-bubble-masked.png", "/projects/spp1-interaction-scatter-masked.png"]

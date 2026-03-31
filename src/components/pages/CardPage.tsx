@@ -50,6 +50,14 @@ export default function CardPage({ config, embedded = false }: { config: CardPag
 
             <div className={`grid ${embedded ? "gap-4" : "gap-6"}`}>
                 {config.items.map((item, index) => (
+                    (() => {
+                        const galleryImages = item.images && item.images.length > 0
+                            ? item.images
+                            : item.image
+                                ? [item.image]
+                                : [];
+
+                        return (
                     <motion.div
                         key={index}
                         initial={{ opacity: 0, y: 20 }}
@@ -57,17 +65,21 @@ export default function CardPage({ config, embedded = false }: { config: CardPag
                         transition={{ duration: 0.4, delay: 0.1 * index }}
                         className={`bg-white dark:bg-neutral-900 ${embedded ? "p-4" : "p-6"} rounded-xl shadow-sm border border-neutral-200 dark:border-neutral-800 hover:shadow-lg transition-all duration-200 hover:scale-[1.01]`}
                     >
-                        {item.image && (
-                            <div className="mb-4 overflow-hidden rounded-xl border border-neutral-200/70 bg-neutral-50 dark:border-neutral-800 dark:bg-neutral-950">
-                                <div className="relative aspect-[16/10] w-full">
-                                    <Image
-                                        src={item.image}
-                                        alt={item.title}
-                                        fill
-                                        className="object-cover"
-                                        sizes="(max-width: 768px) 100vw, 900px"
-                                    />
-                                </div>
+                        {galleryImages.length > 0 && (
+                            <div className={`mb-4 grid gap-3 ${galleryImages.length === 1 ? 'grid-cols-1' : 'grid-cols-1 md:grid-cols-2'}`}>
+                                {galleryImages.map((imagePath, imageIndex) => (
+                                    <div key={imagePath + imageIndex} className="overflow-hidden rounded-xl border border-neutral-200/70 bg-neutral-50 dark:border-neutral-800 dark:bg-neutral-950">
+                                        <div className="relative aspect-[16/10] w-full">
+                                            <Image
+                                                src={imagePath}
+                                                alt={`${item.title} preview ${imageIndex + 1}`}
+                                                fill
+                                                className="object-cover"
+                                                sizes="(max-width: 768px) 100vw, 900px"
+                                            />
+                                        </div>
+                                    </div>
+                                ))}
                             </div>
                         )}
                         <div className="flex justify-between items-start mb-2">
@@ -98,6 +110,8 @@ export default function CardPage({ config, embedded = false }: { config: CardPag
                             </div>
                         )}
                     </motion.div>
+                        );
+                    })()
                 ))}
             </div>
         </motion.div>
