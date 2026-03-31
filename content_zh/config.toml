@@ -11,7 +11,8 @@ institution = "武汉大学"
 avatar = "/liushuye-avatar.jpg"
 
 [social]
-# 准备好后可在这里填写邮箱、地址、Google Scholar、ORCID、GitHub、LinkedIn。
+email = "liushuye@whu.edu.cn"
+github = "https://github.com/Hutao-qiqi"
 
 [[navigation]]
 title = "关于我"

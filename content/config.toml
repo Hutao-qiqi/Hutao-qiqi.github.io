@@ -11,7 +11,8 @@ institution = "Wuhan University"
 avatar = "/liushuye-avatar.jpg"
 
 [social]
-# Add email, location, Google Scholar, ORCID, GitHub, or LinkedIn here when ready.
+email = "liushuye@whu.edu.cn"
+github = "https://github.com/Hutao-qiqi"
 
 [features]
 enable_likes = false

@@ -1,7 +1,15 @@
 [[news]]
 date = "2026-03"
-content = "Personal academic website launched and updated with selected bioinformatics project snapshots."
+content = "Invited talk at the **Bioinformatics AI Frontier Forum and 2026 Annual Symposium of the CSCB Branch of Functional Genomics Informatics and Systems Biology** (Beijing): *An Integrated Framework for Identifying Critical Transitions in Single-Cell Trajectories Using HMM, sMCE, and Hodge Decomposition*."
 
 [[news]]
 date = "2026-03"
-content = "Currently studying at Wuhan University and building a project portfolio around single-cell and spatial transcriptomics."
+content = "A pan-cancer manuscript (co-first author) submitted and currently under review."
+
+[[news]]
+date = "2026-03"
+content = "**AKI-Guardian** early-risk assessment system for acute kidney injury registered as software copyright; three related software copyrights registered in total."
+
+[[news]]
+date = "2026-03"
+content = "Personal academic website launched with project snapshots from cross-cohort tumor ecology, liver disease causal inference, and metabolic communication analyses."
