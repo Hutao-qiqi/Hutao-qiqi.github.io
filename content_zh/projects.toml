@@ -8,7 +8,7 @@ subtitle = "肿瘤生态位结构与免疫环境对比"
 date = "2026"
 content = "这个项目围绕跨队列的肿瘤生态位结构、免疫环境差异以及整体组织格局比较展开。网站公开版本只保留适合展示的热图和趋势图，不展开论文层面的解释链路。"
 tags = ["项目工作区", "跨队列分析", "图表整理"]
-images = ["/projects/sox-niche-heatmap.png", "/projects/sox-tls-enrichment.png"]
+images = ["/projects/sox-niche-heatmap.png", "/projects/plasma-cluster-umap.png"]
 
 [[items]]
 title = "肝病风险与因果证据分析"
@@ -24,4 +24,4 @@ subtitle = "巨噬细胞浸润相关互作模式整理"
 date = "2026"
 content = "这个项目主要整理代谢与炎症模块相关的互作评分、通讯模式和图版输出。公开版本保留了巨噬细胞浸润相关的整体趋势和关联结构，同时对关键分子标签与标题信息进行了打码处理。"
 tags = ["互作分析", "打码图", "项目整理"]
-images = ["/projects/spp1-metabolic-bubble-masked.png", "/projects/spp1-interaction-scatter-masked.png"]
+images = ["/projects/spp1-metabolic-bubble-masked.png", "/projects/thyroid-spatial-projection-masked.png"]
