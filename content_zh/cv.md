@@ -60,7 +60,6 @@
 
 - **武汉大学拔尖计划 × 帝国理工学院生物工程系联合培养项目**
   *Machine Learning in Biomedical Sciences and Bioengineering*
-- **武汉大学泰康医学院（基础医学院）优秀青年志愿者**
 
 ## 认证
 

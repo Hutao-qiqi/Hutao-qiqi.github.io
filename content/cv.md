@@ -60,7 +60,6 @@ Mitochondrial dynamics direction
 
 - **Wuhan University Top-notch Program × Imperial College London collaborative training project**
   *Machine Learning in Biomedical Sciences and Bioengineering*
-- **Outstanding Young Volunteer**, Taikang Medical School (School of Basic Medical Sciences), Wuhan University
 
 ## Certifications
 
