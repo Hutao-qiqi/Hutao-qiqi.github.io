@@ -3,6 +3,14 @@ title = "Projects"
 description = "Selected project snapshots organized by workspace, with public-facing summaries and curated figure panels."
 
 [[items]]
+title = "Conference Poster — CSCB 2026"
+subtitle = "An Integrated Framework for Identifying Critical Transitions in Single-Cell Trajectories Using HMM, sMCE, and Hodge Decomposition"
+date = "2026"
+content = "Invited poster presented at the Bioinformatics AI Frontier Forum and 2026 Annual Symposium of the CSCB Branch of Functional Genomics Informatics and Systems Biology, Beijing. The framework integrates HMM-based state discretization, sMCE tipping-point detection, and Hodge decomposition to resolve transition flows into gradient, curl, and harmonic components along single-cell trajectories."
+tags = ["Conference poster", "Trajectory analysis", "HMM", "Hodge decomposition"]
+link = "/projects/poster.pdf"
+
+[[items]]
 title = "Pan-cancer vulnerability landscape"
 subtitle = "Motility programs, survival signatures, and virtual perturbation across tumor types"
 date = "2026"
