@@ -1,5 +1,6 @@
 import type { Metadata } from 'next';
 import './globals.css';
+import ClientEffects from '@/components/effects/ClientEffects';
 import Navigation from '@/components/layout/Navigation';
 import Footer from '@/components/layout/Footer';
 import { ThemeProvider } from '@/components/ui/ThemeProvider';
@@ -167,6 +168,7 @@ export default function RootLayout({
         />
       </head>
       <body className="font-sans antialiased">
+        <ClientEffects />
         <ThemeProvider>
           <LocaleProvider config={runtimeI18n}>
             <Navigation
@@ -177,7 +179,7 @@ export default function RootLayout({
               itemsByLocale={navigationByLocale}
               siteTitleByLocale={siteTitleByLocale}
             />
-            <main className="min-h-screen pt-16 lg:pt-20">
+            <main className="relative min-h-screen pt-16 lg:pt-20" style={{ zIndex: 2 }}>
               {children}
             </main>
             <Footer

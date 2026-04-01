@@ -253,3 +253,59 @@ body {
   /* Soften card borders in dark mode only */
   border-color: rgba(148, 163, 184, 0.24);
 }
+
+/* ─────────────────────────────────────────
+   Visual effects
+───────────────────────────────────────── */
+
+/* Animated gradient text for headings */
+@keyframes gradient-shift {
+  0%   { background-position: 0% 50%; }
+  50%  { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+.text-gradient-animate {
+  background: linear-gradient(
+    135deg,
+    var(--primary) 0%,
+    var(--accent) 45%,
+    var(--primary) 100%
+  );
+  background-size: 200% 200%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  animation: gradient-shift 6s ease infinite;
+}
+
+/* Card accent glow on hover */
+@keyframes border-glow {
+  0%, 100% { opacity: 0.5; }
+  50%       { opacity: 1; }
+}
+
+.card-hover-glow {
+  transition: box-shadow 0.3s ease, transform 0.2s ease;
+}
+.card-hover-glow:hover {
+  box-shadow:
+    0 0 0 1px rgba(212, 165, 98, 0.25),
+    0 8px 32px rgba(212, 165, 98, 0.12),
+    0 2px 8px rgba(0, 0, 0, 0.06);
+}
+.dark .card-hover-glow:hover {
+  box-shadow:
+    0 0 0 1px rgba(228, 185, 118, 0.30),
+    0 8px 32px rgba(228, 185, 118, 0.14),
+    0 2px 8px rgba(0, 0, 0, 0.3);
+}
+
+/* Profile card subtle shimmer ring */
+@keyframes ring-pulse {
+  0%, 100% { box-shadow: 0 0 0 0px rgba(212,165,98,0.3); }
+  50%       { box-shadow: 0 0 0 6px rgba(212,165,98,0.0); }
+}
+.avatar-ring {
+  animation: ring-pulse 3s ease-in-out infinite;
+}
