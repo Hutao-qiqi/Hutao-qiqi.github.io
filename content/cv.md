@@ -21,7 +21,6 @@ Liu Shuye is an undergraduate student at the Taikang Medical School (School of B
 - This line of work has led to a conference presentation and ongoing manuscript preparation.
 
 **AKI-Guardian early-risk assessment system for acute kidney injury**
-Wuhan University Top-notch Program × Imperial College London collaborative project
 *2024 - Present*
 - Participated in the development of a machine-learning-based early warning system for acute kidney injury, contributing to model design, feature engineering, and system implementation.
 - This work resulted in three registered software copyrights, including AKI-Guardian.
