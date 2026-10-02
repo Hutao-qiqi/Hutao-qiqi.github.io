@@ -11,10 +11,14 @@ import type { SiteConfig } from '@/lib/config';
 
 export async function generateMetadata(): Promise<Metadata> {
   const config = getConfig();
+  const personJsonLd = buildPersonJsonLd(config);
   const runtimeI18n = getRuntimeI18nConfig(config.i18n);
   const openGraphLocale = runtimeI18n.defaultLocale === 'zh' ? 'zh_CN' : 'en_US';
 
+  const siteUrl = config.site.url ? new URL(config.site.url) : undefined;
+
   return {
+    ...(siteUrl ? { metadataBase: siteUrl } : {}),
     title: {
       default: config.site.title,
       template: `%s | ${config.site.title}`,
@@ -22,6 +26,10 @@ export async function generateMetadata(): Promise<Metadata> {
     description: config.site.description,
     keywords: [
       config.author.name,
+      'Shuye Liu',
+      '刘叔烨',
+      'Wuhan University',
+      '武汉大学',
       'Computational Biology',
       'Single-cell Transcriptomics',
       'Spatial Transcriptomics',
@@ -31,7 +39,8 @@ export async function generateMetadata(): Promise<Metadata> {
       'Causal Inference',
       config.author.institution,
     ],
-    authors: [{ name: config.author.name }],
+    authors: [{ name: 'Shuye Liu', url: config.site.url }],
+    alternates: config.site.url ? { canonical: config.site.url } : undefined,
     creator: config.author.name,
     publisher: config.author.name,
     icons: {
@@ -42,7 +51,8 @@ export async function generateMetadata(): Promise<Metadata> {
       locale: openGraphLocale,
       title: config.site.title,
       description: config.site.description,
-      siteName: `${config.author.name}'s Academic Website`,
+      siteName: "Shuye Liu (刘叔烨) Academic Website",
+      ...(config.site.url ? { url: config.site.url } : {}),
     },
   };
 }
@@ -122,6 +132,35 @@ function buildLocalizedConfigMaps(
   };
 }
 
+function buildPersonJsonLd(config: SiteConfig) {
+  const sameAs = [config.social.github, config.social.google_scholar, config.social.orcid].filter(Boolean);
+
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'Person',
+    name: 'Shuye Liu',
+    alternateName: ['刘叔烨', 'Liu Shuye', 'ShuYe Liu'],
+    url: config.site.url,
+    affiliation: {
+      '@type': 'CollegeOrUniversity',
+      name: 'Wuhan University',
+      alternateName: '武汉大学',
+      url: 'https://www.whu.edu.cn/',
+    },
+    jobTitle: config.author.title,
+    email: config.social.email ? `mailto:${config.social.email}` : undefined,
+    sameAs,
+    knowsAbout: [
+      'Computational biology',
+      'Cancer genomics',
+      'Single-cell transcriptomics',
+      'Spatial transcriptomics',
+      'Tumor immunology',
+      'Multi-omics integration',
+    ],
+  };
+}
+
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -140,6 +179,10 @@ export default function RootLayout({
   return (
     <html lang={runtimeI18n.defaultLocale} className="scroll-smooth" suppressHydrationWarning>
       <head>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(personJsonLd).replace(/</g, '\\u003c') }}
+        />
         <link rel="icon" href={config.site.favicon} type="image/svg+xml" />
         <script
           dangerouslySetInnerHTML={{
