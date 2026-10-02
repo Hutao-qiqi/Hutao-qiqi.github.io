@@ -1,12 +1,13 @@
 [site]
-title = "Shuye Liu"
-description = "Shuye Liu is a computational biology researcher at Wuhan University, specializing in single-cell transcriptomics, spatial transcriptomics, and cell-state annotation. Research spans tumor microenvironment ecology, disease risk causal inference, and multi-modal omics integration."
+title = "Shuye Liu (刘叔烨)"
+description = "Official academic website of Shuye Liu (刘叔烨), an undergraduate researcher at Wuhan University Taikang Medical School. Research interests include computational biology, cancer genomics, single-cell and spatial transcriptomics, tumor immunology, and multimodal omics."
+url = "https://hutao-qiqi.github.io"
 favicon = "/favicon.svg"
-last_updated = "March 31, 2026"
+last_updated = "October 3, 2026"
 
 [author]
-name = "Shuye Liu"
-title = "Researcher in Computational Biology"
+name = "Shuye Liu (刘叔烨)"
+title = "Undergraduate Researcher in Computational Biology"
 institution = "Wuhan University"
 avatar = "/liushuye-avatar.jpg"
 
