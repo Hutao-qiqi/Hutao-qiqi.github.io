@@ -14,6 +14,7 @@ avatar = "/liushuye-avatar.jpg"
 [social]
 email = "liushuye@whu.edu.cn"
 github = "https://github.com/Hutao-qiqi"
+orcid = "https://orcid.org/0009-0005-7261-7514"
 
 [features]
 enable_likes = false
