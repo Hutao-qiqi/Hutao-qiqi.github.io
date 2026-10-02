@@ -1,11 +1,15 @@
-I am **Shuye Liu**, a student researcher at the **Taikang Medical School (School of Basic Medical Sciences), Wuhan University**, advised by Prof. Ke Gong, working at the intersection of computational biology and biomedical science. My research centers on **single-cell transcriptomics**, **spatial transcriptomics**, and the computational characterization of **cell-state transitions** — with a particular focus on clustering fidelity, annotation robustness, and the principled integration of multi-modal omics data.
+I am **Shuye Liu (刘叔烨)**, an undergraduate researcher at **Taikang Medical School (School of Basic Medical Sciences), Wuhan University**. I work at the intersection of computational biology, cancer genomics, tumor immunology, and multimodal omics, with current interests spanning **single-cell transcriptomics**, **spatial transcriptomics**, **cell-state transitions**, and computational approaches to clinically relevant cancer phenotypes.
 
-I am drawn to problems where biological complexity meets analytical rigor: building formal frameworks for trajectory analysis, tracing cell-fate dynamics in disease contexts, and translating high-dimensional data into interpretable, reproducible outputs. This site documents a selection of ongoing projects and analytical work spanning tumor microenvironment ecology, causal inference in disease risk, and spatial interaction modeling.
+My recent work includes pan-cancer analyses of genomic alterations and immunotherapy response, spatial tumor ecosystem analysis, and computational inference of signaling states from transcriptomic data. I also contribute to biomedical machine-learning projects and experimental studies in acute kidney injury.
 
-## Why This Direction
+This website is the primary public academic profile for **Shuye Liu / 刘叔烨 at Wuhan University** and links my publications, research projects, software, and reproducible analysis resources.
 
-The cell is not a static entity — it negotiates its identity continuously, shaped by neighbors, signals, and disease. Yet most computational tools treat cell type as a fixed label, not a dynamic state. This tension is what drew me to single-cell and spatial omics: the data are rich enough to capture transitions in real time, but the methods to interpret them rigorously are still being built. I want to close that gap — to develop algorithms that are not just statistically sound, but biologically interpretable and clinically translatable.
+## Research Focus
+
+I am particularly interested in questions where biological complexity requires explicit computational structure: how genomic alterations reshape tumor ecosystems, how cell states transition across disease and treatment, how spatial organization constrains signaling and immunity, and how multimodal measurements can be integrated without losing biological interpretability.
 
 ## Affiliation
 
-I work within the [Taikang Medical School](https://msc.whu.edu.cn/) at Wuhan University. My research is conducted under the mentorship of **[Advisor Name]**. If you are interested in collaboration or have questions about our work, please reach out via email.
+**Taikang Medical School (School of Basic Medical Sciences), Wuhan University**, Wuhan, China.
+
+For research-related contact, please use **liushuye@whu.edu.cn**. My public code and research resources are available through [GitHub](https://github.com/Hutao-qiqi).
